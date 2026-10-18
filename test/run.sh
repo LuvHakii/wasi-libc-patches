@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# usage: WASI_SDK=/path/to/wasi-sdk test/run.sh   (wasmtime must be on PATH, or set WASMTIME)
 set -euo pipefail
 
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
